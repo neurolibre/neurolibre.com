@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "NeuroLibre"
 theme = "hugo-now-ui"
 
+
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
