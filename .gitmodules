@@ -1,0 +1,2 @@
+[submodule "themes/hugo-now-ui"]
+	url = https://github.com/cboettig/hugo-now-ui.git
