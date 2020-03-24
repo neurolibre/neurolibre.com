@@ -8,7 +8,7 @@ googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 #enableGitInfo = true
-publishDir = "docs"
+publishDir = "public"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -61,8 +61,8 @@ publishDir = "docs"
     pre = "<i class='now-ui-icons shopping_tag-content'></i>"
     url = "/tags/"
     weight = 2
-    parent = "dropdown"    
-    
+    parent = "dropdown"
+
 [[menu.footer]]
     identifier = "twitter"
     pre = "<i class='fa fa-twitter'></i>"
