@@ -3915,7 +3915,7 @@ tbody.collapse.show {
 
 .card-footer {
     padding: .75rem 1.25rem;
-    background-color: rgba(0, 0, 0, .03);
+    background-color: rgba(204, 43, 43, 0.03);
     border-top: 1px solid rgba(0, 0, 0, .125)
 }
 
