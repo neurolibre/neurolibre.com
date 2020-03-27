@@ -38,19 +38,19 @@
                                     <a href="{{ .RelPermalink }}">Read More…</a>
                                   </div>
                                  {{ end }}
-                                   {{ if .Slug}}
+                                   {{ if .Params.my_data}}
                                     <div>
                                     <p>Scrape data from data/yaml through slug described in the markdown (temporary solution just to follow theme)</p>
                                     <ul>
-                                      <li>{{ (index .Site.Data.post .Params.Slug).title }}</li>
-                                      <li>{{ (index .Site.Data.post .Params.Slug).summary }}</li>
-                                      <li>{{ (index .Site.Data.post .Params.Slug).authors }}</li>
-                                      <li>{{ (index .Site.Data.post .Params.Slug).labels}}</li>
+                                      <li>{{ (index .Site.Data.post .Params.my_data).title }}</li>
+                                      <li>{{ (index .Site.Data.post .Params.my_data).summary }}</li>
+                                      <li>{{ (index .Site.Data.post .Params.my_data).authors }}</li>
+                                      <li>{{ (index .Site.Data.post .Params.my_data).labels}}</li>
                                     </ul>
                                   
                                   <p>Use partial to create badge pointing to the book url.</p>
 
-                                  {{ $myUrl := (index .Site.Data.post .Params.Slug).url}}
+                                  {{ $myUrl := (index .Site.Data.post .Params.my_data).url}}
 
                                   {{ partial "badges" (dict "label" "NeuroLibre" "message" "BOOK" "link" $myUrl  "target" "_blank" "logoWidth" "14" "color" "red")}}
                                     </div>
