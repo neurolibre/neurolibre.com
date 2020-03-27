@@ -2,10 +2,10 @@
 title: example post
 author: Carl Boettiger
 date: '2017-11-29'
-slug: example-post
+my_data: examplepost
 categories: ['r', 'hugo']
 tags: ['example']
-image: "img/bg4.jpg"
+image: "img/bg3.jpg"
 ---
 
-Awesome blog post
+Populate card based on yaml file put in /data. 
