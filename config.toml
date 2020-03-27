@@ -1,4 +1,4 @@
-baseURL = "www.angry-yalow-d7d0de.netlify.com/"
+baseURL = "https://www.angry-yalow-d7d0de.netlify.com/"
 languageCode = "en-us"
 title = "NeuroLibre"
 theme = "hugo-now-ui"
