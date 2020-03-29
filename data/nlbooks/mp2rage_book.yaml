@@ -1,0 +1,15 @@
+title: "T1 mapping using magnetization prepared two rapid gradient echo (MP2RAGE) sequence"
+summary: "An interactive blog post for blah blah. We should expect xyz number of words min/max so that styling is good." 
+authors:
+- name: Mathieu Boudreau
+  website: https://github.com/mathieuboudreau
+  affiliation: MHI
+- name: Agah Karakuzu
+  website: https://github.com/agahkarakuzu
+  affiliation: Ecole Polytechnique de Montreal
+date: "2020-03-26"
+labels:
+- Educational
+- Interactive tutorials
+image: "mp2rage_featured.png"
+url: http://qmrlab.org/t1_book/intro
