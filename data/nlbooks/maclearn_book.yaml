@@ -1,9 +1,12 @@
-title: "Machine learning with Nilearn"
-summary: "An interactive blog post for machine learning stuff." 
+title: "Introduction to machine learning with Nilearn"
+summary: "An introductory tutorial for using the popular Nilearn software package to perform machine learning analyses with neuroimaging data. This material is adapted from the Montreal AI and Neuroscience (MAIN) 2018 workshops." 
 authors:
 - name: Elizabeth DuPre
   website: https://github.com/emdupre
   affiliation: MNI
+- name: Loic Tetrel
+  website: https://github.com/ltetrel
+  affiliation: UdeM
 - name: Greg Kiar
   website: http://gkiar.me/
   affiliation: MNI
