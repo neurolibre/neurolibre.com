@@ -16,7 +16,8 @@
 <div class="container justify-content-center">
   <div class="row">
     <div class="col-lg-12">
-      {{ range $key, $value := .Site.Data.nlbooks }}
+      {{/*  {{ range sort .Site.Data.nlbooks "date" }}  */}}
+      {{ range $key, $value := sort .Site.Data.nlbooks "date" "desc" }}
       {{ partial "cards" (dict "value" $value )}}
       {{ end }}
     </div>
