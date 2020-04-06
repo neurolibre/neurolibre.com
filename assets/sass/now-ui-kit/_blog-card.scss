@@ -42,8 +42,9 @@
       right: 0;
       bottom: 0;
       left: 0;
-      background-size: cover;
-      background-position: center;
+      background-size: contain;
+      background-repeat:   no-repeat;
+      background-position: center center;
       transition: transform .2s;
     }
     .details,
@@ -181,11 +182,11 @@
   
     @media (min-width: 500px) {
       .meta {
-        flex-basis:100%;
+        width:40%;
         height: auto;
       }
       .description {
-        flex-basis: 100%;
+        flex-basis: 70%;
         &:before {
           transform: skewX(-3deg);
           content: "";
