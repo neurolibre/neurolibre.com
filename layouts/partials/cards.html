@@ -4,9 +4,18 @@
       <div class="photo" style="background-image: url(/img/nlbooks/{{.value.image}})"></div>
       <ul class="details">
         <li class="author">
-        {{- range $ky, $lbl := .value.authors -}}
-        {{- if ne $ky 0 }}, {{ end -}}
-        <a href="{{$lbl.website}}" data-toggle="tooltip" title={{$lbl.affiliation}}>{{- $lbl.name -}}</a>
+        {{ $urljb := .value.url }}
+        {{- if le (len .value.authors) 7 -}}
+          {{- range $ky, $lbl := .value.authors -}}
+          {{- if ne $ky 0 -}}, {{ end -}}
+          <a href="{{$lbl.website}}" data-toggle="tooltip" title={{$lbl.affiliation}}>{{- $lbl.name -}}</a>
+          {{- end -}}
+        {{- else -}}
+          {{- range $ky, $lbl := .value.authors | first 7 }}
+            <a href="{{$lbl.website}}" data-toggle="tooltip" title={{$lbl.affiliation}}>{{- $lbl.name -}},</a>
+          {{- end }}
+          <a href="{{$urljb}}" data-toggle="tooltip" title="{{- range $ky, $lbl := .value.authors | after 7 -}}{{- if ne $ky 0 -}}, {{ end -}}{{ $lbl.name }} {{- end -}}">et al.</a>
+
         {{- end -}}
         </li>
         <li class="date">{{ .value.date}}</li>

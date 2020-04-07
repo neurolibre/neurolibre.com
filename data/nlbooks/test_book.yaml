@@ -1,0 +1,64 @@
+title: "Introduction to testing stuff in Hugo"
+summary: "An introductory tutorial for using the popular Hugo software to build website. By now, you should have understood that this item is, in fact, a test item. I am just making the summary a little big longer to mimic a real item such as the ones below this one." 
+authors:
+- name: Mario Speedwagon
+  website: https://github.com/emdupre
+  affiliation: MNI
+- name: Petey Cruiser
+  website: https://github.com/ltetrel
+  affiliation: UdeM
+- name: Anna Sthesia
+  website: http://gkiar.me/
+  affiliation: MNI
+- name: Paul Molive
+  website: https://scholar.google.ca/citations?user=1m6yqlwAAAAJ&hl=en
+  affiliation: MNI
+- name: Anna Mull
+  website: https://github.com/pbellec
+  affiliation: UdeM
+- name: Gail Forcewind
+  website: https://github.com/emdupre
+  affiliation: MNI
+- name: Paige Turner
+  website: https://github.com/ltetrel
+  affiliation: UdeM
+- name: Bob Frapples
+  website: http://gkiar.me/
+  affiliation: MNI
+- name: Walter Melon
+  website: https://scholar.google.ca/citations?user=1m6yqlwAAAAJ&hl=en
+  affiliation: MNI
+- name: Nick R. Bocker
+  website: https://github.com/pbellec
+  affiliation: UdeM
+- name: Elizabeth DuPre
+  website: https://github.com/emdupre
+  affiliation: MNI
+- name: Loic Tetrel
+  website: https://github.com/ltetrel
+  affiliation: UdeM
+- name: Greg Kiar
+  website: http://gkiar.me/
+  affiliation: MNI
+- name: Jake Vogel
+  website: https://scholar.google.ca/citations?user=1m6yqlwAAAAJ&hl=en
+  affiliation: MNI
+- name: Pierre Bellec
+  website: https://github.com/pbellec
+  affiliation: UdeM
+- name: Barb Ackue
+  website: https://github.com/emdupre
+  affiliation: MNI
+- name: Shonda Leer
+  website: https://github.com/ltetrel
+  affiliation: UdeM
+- name: Rick O'Shea
+  website: http://gkiar.me/
+  affiliation: MNI
+
+date: "2020-04-06"
+labels:
+- Educational
+- Interactive tutorials
+image: "test_featured.png"
+url: https://brainhack101.github.io/introML-book/intro
