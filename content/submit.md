@@ -17,7 +17,7 @@ Submissions are not reviewed in the sense of a traditional scientific publicatio
 3. Create a `binder` folder which will contain all the dependencies :
 > * A [requirements file](https://mybinder.readthedocs.io/en/latest/config_files.html#requirements-txt-install-a-python-environment) containing all the software dependencies.
 > * A [data_requirement](https://github.com/SIMEXP/Repo2Data) file containing the data dependencies if needed.
-4. Go to https://binder.conp.cloud.
+4. Go to https://binder-test.conp.cloud/.
 5. Fill the repository name and save the given URL. This will be used to share your binder notebooks with others.
 6. Click on `launch` and wait for the build. Please be patient, as the first build may take a long time depending on your setup. When your notebook loads, you are ready to publish on the neurolibre website!
 7. [Create an issue](https://github.com/neurolibre/submit/issues/new?assignees=pbellec&labels=&template=submission.md&title=%5BSUBMISSION%5D) in this repository, using the "Submission" template, and fill in all the information. 
