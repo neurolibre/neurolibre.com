@@ -18,6 +18,7 @@ publishDir = "public"
     url = "/submit/"
     pre = "<i class='now-ui-icons arrows-1_cloud-upload-94'></i>"
     weight = 1
+
 [[menu.main]]
     name = "About"
     url = "/about/"
