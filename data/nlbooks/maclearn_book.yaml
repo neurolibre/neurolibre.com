@@ -21,4 +21,5 @@ labels:
 - Educational
 - Interactive tutorials
 image: "ml_featured.png"
-url: https://brainhack101.github.io/introML-book/intro
+url: https://brainhack101.github.io/introML-book
+ext: https://github.com/brainhack101/introML-book

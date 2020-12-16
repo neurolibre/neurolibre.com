@@ -13,3 +13,4 @@ labels:
 - Interactive tutorials
 image: "sct_featured.png"
 url: https://mathieuboudreau.github.io/pipelines-jupyter-book/01/sct_mtsat
+ext: https://github.com/mathieuboudreau/pipelines-jupyter-book

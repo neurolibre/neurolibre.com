@@ -12,4 +12,5 @@ labels:
 - Educational
 - Interactive tutorials
 image: "mp2rage_featured.png"
-url: http://qmrlab.org/t1_book/intro
+url: http://qmrlab.org/t1_book
+ext: https://github.com/qMRLab/t1_book

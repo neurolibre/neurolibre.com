@@ -9,4 +9,5 @@ date: "2020-03-26"
 labels:
 - Publication
 image: "adni_featured.png"
-url: https://simexp.github.io/vcog_hps_ad_book/intro.html
+url: https://simexp.github.io/vcog_hps_ad_book
+ext: https://github.com/SIMEXP/vcog_hps_ad_book
