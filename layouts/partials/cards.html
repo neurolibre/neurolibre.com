@@ -1,0 +1,36 @@
+<hr>
+<div class="blog-card alt">
+    <div class="meta">
+      <div class="photo" style="background-image: url(/img/nlbooks/{{.value.image}})"></div>
+      <ul class="details">
+        <li class="author">
+        {{ range $ky, $lbl := .value.authors}}
+        <a href="{{$lbl.website}}" data-toggle="tooltip" title={{$lbl.affiliation}}>{{ $lbl.name }}</a>
+        {{ end }}
+        </li>
+        <li class="date">{{ .value.date}}</li>
+        <li class="tags">
+          <ul>
+            {{ range $ky, $lbl := .value.labels}}
+            <li><a href="/tags/{{ $lbl | urlize}}" target="_blank">{{$lbl}}</a></li>
+            {{ end }}
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>{{ .value.title }}</h1>
+      <p> {{ .value.summary }}</p>
+        <p>
+        {{ $myUrl := (index .value).url}}
+        {{ if $.value.ext }}
+          {{ partial "badge_nl" (dict "message" "Book" "link" $myUrl "target" "_blank" "logoWidth" "14" "color" "e91b21")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $.value.ext "target" "_blank" "logo" "github" "logoWidth" "14" "color" "1f2428")}}
+        {{else}}
+          {{ $u:= urls.Parse $myUrl }}
+          {{ $baseGH := "https://github.com/neurolibre"}}
+          {{ $urlGH := print $baseGH $u.Path}}
+          {{ partial "badge_nl" (dict "message" "Book" "link" $myUrl "target" "_blank" "logoWidth" "14" "color" "e91b21")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "14" "color" "1f2428")}}
+        {{end}} 
+        </p>
+    </div>
+  </div>
